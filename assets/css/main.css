@@ -1,0 +1,110 @@
+@import 'tailwindcss';
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('@/assets/fonts/Gilroy-Light.otf') format('opentype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('@/assets/fonts/Gilroy-ExtraBold.otf') format('opentype');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Gilroy', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.f-container {
+	max-width: 1530px;
+	width: 100%;
+}
+
+.el-select__wrapper {
+	background: #f4f7fa !important;
+	border-radius: 10px !important;
+	height: 45px !important;
+}
+
+.el-select__wrapper.is-focused {
+	box-shadow: 0 0 0 1px #3b8ff3 !important;
+}
+
+.el-tabs__nav-wrap:after {
+	background-color: #e5e5ef !important;
+	height: 1px !important;
+	bottom: 1px !important;
+	width: 1020px !important;
+}
+
+.el-tabs__active-bar {
+	background-color: white !important;
+	border-radius: 5px !important;
+	height: 3px !important;
+}
+
+.el-tabs__item {
+	font-weight: 700px !important;
+	font-size: 16px !important;
+	color: #ffffffcc !important;
+}
+
+.el-tabs__item.is-active {
+	color: white !important;
+}
+
+.el-tabs__content {
+	margin-top: 30px !important;
+	overflow: visible !important;
+	margin-bottom: 45px;
+}
+
+.el-checkbox__inner:hover {
+	border-color: #3b8ff3 !important;
+}
+
+.el-checkbox__input.is-checked > .el-checkbox__inner {
+	border-color: #3b8ff3 !important;
+	background-color: #3b8ff3 !important;
+}
+
+.el-checkbox__label {
+	color: #5c606c !important;
+	font-size: 16px !important;
+}
+
+.el-radio__input.is-checked > .el-radio__inner {
+	border-color: #3b8ff3 !important;
+	background: #fff !important;
+}
+
+.el-radio__input.is-checked > .el-radio__inner:after {
+	background: #3b8ff3 !important;
+	height: 10px !important;
+	width: 10px !important;
+}
+
+.el-radio__label {
+	color: #5c606c !important;
+	font-size: 16px !important;
+}
+
+.el-radio-group {
+	align-items: baseline !important;
+}
+
+@theme {
+	--color-primary: #018E20;
+}
