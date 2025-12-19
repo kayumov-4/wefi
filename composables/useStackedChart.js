@@ -33,7 +33,8 @@ export function useStackedChart() {
     };
 
     const monthKey = fixedMonth.toLowerCase();
-    const translations = monthTranslations[monthKey] || monthTranslations.june;
+    const translations =
+      monthTranslations[monthKey] || monthTranslations.november;
 
     const percentByCategory = {};
     categories.forEach((cat, i) => {
