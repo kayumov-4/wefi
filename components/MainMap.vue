@@ -57,7 +57,7 @@
           >
             <p>W MSME ({{ $t("number") }})</p>
             <p class="text-primary font-bold text-xl">
-              {{ formatNumber(212207) }}
+              {{ formatNumber(223318) }}
             </p>
           </NuxtLink>
           <NuxtLink
