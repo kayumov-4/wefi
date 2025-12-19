@@ -11,7 +11,7 @@ export function useStackedChart() {
     addGraphic = true,
     barWidth = 20,
     hideYAxisLabels = false,
-    fixedMonth = "july",
+    fixedMonth = "november",
   }) {
     const categories = seriesData[0]?.data.map((d) => d.name) || [];
     const reversedTotals = [...totalsPercent];
